@@ -1,0 +1,37 @@
+/* Efek hover untuk box menu */
+.category-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Hover untuk judul menu */
+dt {
+    transition: color 0.3s ease;
+}
+
+dt:hover {
+    color: #9e8515;
+    cursor: pointer;
+}
+
+/* Hover untuk list kategori */
+.category-title {
+    transition: color 0.3s ease;
+}
+
+.category-title:hover {
+    color: #ff7f50;
+}
+
+/* Hover tombol langkah (biar lebih hidup) */
+ol.steps li {
+    transition: transform 0.2s ease;
+}
+
+ol.steps li:hover {
+    transform: translateX(5px);
+}
